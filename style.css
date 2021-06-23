@@ -1,0 +1,202 @@
+body{
+  background: radial-gradient(#4c61fe, #9a74ab);
+ 
+}
+h1{
+font-size: 50px;
+color: rgb(255, 249, 252);
+margin-top: 0%;
+display:flex;
+align-items: center;
+justify-content: center
+
+}
+
+#keys{
+  min-width: 10vw;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  flex-direction: row;
+  margin: 70px;
+  justify-content:center;
+  flex-wrap: wrap;
+  position: relative;
+  bottom: 100px;
+  
+}
+#akey {
+   width: 40%;
+   border: 20px solid rgb(11, 0, 128);
+   background-color: #263bb1;
+   padding: 40px;
+   margin: 100px;
+   font-size: 40px;
+   color: rgb(255, 249, 252);
+   display:flex;
+   align-items: center;
+   justify-content: center; 
+   clip-path: circle(75%);
+   transition: clip-path 1s;
+
+}
+
+#akey:hover {
+  clip-path: circle(25%);
+
+}
+#skey{
+  width: 40%;
+  border: 20px solid rgb(11, 0, 128);
+  background-color: #263bb1;
+  padding: 40px;
+  margin: 100px;
+  font-size: 40px;
+  color: rgb(255, 249, 252);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: circle(75%);
+  transition: clip-path 1s;
+
+}
+
+#skey:hover {
+  clip-path: circle(25%);
+}
+#dkey{
+  width: 40%;
+  border: 20px solid rgb(11, 0, 128);
+  background-color: #263bb1;
+  padding: 40px;
+  margin: 100px;
+  font-size: 40px;
+  color: rgb(255, 249, 252);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: circle(75%);
+  transition: clip-path 1s;
+}
+
+#dkey:hover {
+  clip-path: circle(25%);
+}
+#fkey{
+  width:40%;
+  border: 20px solid rgb(11, 0, 128);
+  background-color: #263bb1;
+  padding: 40px;
+  margin: 100px;
+  font-size: 40px;
+  color: rgb(255, 249, 252);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  nav-right: 50%;
+  position: relative;
+  bottom: 130px;
+  clip-path: circle(75%);
+  transition: clip-path 1s;
+}
+#fkey:hover {
+  clip-path: circle(25%);
+}
+#gkey{
+  width: 40%;
+  border: 20px solid rgb(11, 0, 128);
+  background-color: #263bb1;
+  padding: 40px;
+  margin: 100px;
+  font-size: 40px;
+  color: rgb(255, 249, 252);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 130px;
+  clip-path: circle(75%);
+  transition: clip-path 1s;
+}
+#gkey:hover {
+  clip-path: circle(25%);
+}
+#hkey{
+  width: 40%;
+  border: 20px solid rgb(11, 0, 128);
+  background-color: #263bb1;
+  padding: 40px;
+  margin: 100px;
+  font-size: 40px;
+  color: rgb(255, 249, 252);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 130px;
+  clip-path: circle(75%);
+  transition: clip-path 1s;
+}
+#hkey:hover {
+  clip-path: circle(25%);
+}
+#jkey{
+  width: 40%;
+  border: 20px solid rgb(11, 0, 128);
+  background-color: #263bb1;
+  padding: 40px;
+  margin: 100px;
+  font-size: 40px;
+  color: rgb(255, 249, 252);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 250px;
+  clip-path: circle(75%);
+  transition: clip-path 1s;
+}
+#jkey:hover {
+  clip-path: circle(25%);
+}
+#kkey{
+  width: 40%;
+  border: 20px solid rgb(11, 0, 128);
+  background-color: #263bb1;
+  padding: 40px;
+  margin: 100px;
+  font-size: 40px;
+  color: rgb(255, 249, 252);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 250px;
+  clip-path: circle(75%);
+  transition: clip-path 1s;
+  
+}
+#kkey:hover {
+  clip-path: circle(25%);
+}
+#lkey{
+  width: 40%;
+  border: 20px solid rgb(11, 0, 128);
+  background-color: #263bb1;
+  padding: 40px;
+  margin: 100px;
+  font-size: 40px;
+  color: rgb(255, 249, 252);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 250px;
+  clip-path: circle(75%);
+  transition: clip-path 1s;
+  
+}
+#lkey:hover {
+  clip-path: circle(25%);
+};
+
+
